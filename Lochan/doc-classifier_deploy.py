@@ -173,8 +173,8 @@ def predict(image, sess):
 app = Flask(__name__)
 image_size = 244
 minimumScore = 80.00
-labelNumDict = pkl.load(open('classDict.pkl', 'rb'))
-vgg16_weight_file_path, path_to_model = 'vgg16.npy', 'checkpoints/model.ckpt-99'
+labelNumDict = pkl.load(open('/home/ofsdms/Lochan/doc-classifier-checkpoint/classDict.pkl', 'rb'))
+vgg16_weight_file_path, path_to_model = 'vgg16.npy', '/home/ofsdms/Lochan/doc-classifier-checkpoint/model.ckpt-99'
 model = Vgg16(vgg16_npy_path=vgg16_weight_file_path, num_classes=5)
 images = tf.placeholder(name="placeholder_image", shape=(None, 244, 244, 3), dtype=tf.float32)
 model.build(images)
