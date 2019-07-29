@@ -18,7 +18,7 @@ class Vgg16:
         if vgg16_npy_path is None:
             path = inspect.getfile(Vgg16)
             path = os.path.abspath(os.path.join(path, os.pardir))
-            path = os.path.join("/home/ofsdms/Lochan/doc-classifier-checkpoint", "vgg16.npy")
+            path = os.path.join("/home/ofsdms/Lochan/doc-classifier-checkpoint/", "vgg16.npy")
             vgg16_npy_path = path
             print(path)
         # this data_dict contain all the s
