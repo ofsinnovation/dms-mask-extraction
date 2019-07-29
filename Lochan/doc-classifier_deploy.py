@@ -20,6 +20,7 @@ class Vgg16:
             path = os.path.abspath(os.path.join(path, os.pardir))
             path = os.path.join("/home/ofsdms/Lochan/doc-classifier-checkpoint/", "vgg16.npy")
             vgg16_npy_path = path
+            import pdb; pdb.set_trace()
             print(path)
         # this data_dict contain all the s
         
