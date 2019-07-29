@@ -24,7 +24,8 @@ class Vgg16:
             print(path)
         # this data_dict contain all the s
         
-        self.data_dict = np.load(vgg16_npy_path, encoding='latin1').item()
+        # self.data_dict = np.load(vgg16_npy_path, encoding='latin1').item()
+        self.data_dict = np.load("/home/ofsdms/Lochan/doc-classifier-checkpoint/vgg16.npy" , encoding='latin1').item()
         self.num_classes = num_classes
         self.data_dict_shape = {}
         print([value[1].shape for value in self.data_dict.values()])
