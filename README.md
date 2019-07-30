@@ -14,6 +14,7 @@ $cd Lochan
 
 3. python3 ~/dms-mask-extraction/Lochan/doc-classifier_deploy.py
 
+4. python3 ~/dms-mask-extraction/Lochan/Orientation_API.py
 
 
 

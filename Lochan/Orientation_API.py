@@ -16,7 +16,7 @@ import skimage.io
 # Initialize the Flask application
 app = Flask(__name__)
 
-model_path = '/home/ofsdms/Hybrid_Aadhar_Pan_Orientation_Classfier_vgg16.h5'
+model_path = '/home/ofsdms/Lochan/doc-orientation-checkpoint/Hybrid_Aadhar_Pan_Orientation_Classfier_vgg16.h5'
 orientation_model = load_model(model_path)
 orientation_model._make_predict_function()
 image_size = 224
