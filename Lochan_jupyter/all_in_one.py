@@ -105,6 +105,7 @@ class KYC(object):
         print("print worker")
         print(worker)
         data = response.json()
+        print(data)
         print(response)
         print("$$$$$$$$$$$$$$$$$$$$$")
         if worker is self.workers[0]:
@@ -120,6 +121,7 @@ class KYC(object):
 
             return data['PredictedID']
         elif self.DOCUMENT_EXTRACTOR_KEYWORD in worker:
+            print(str(worker) + "this is the worker")
             #import pdb;pdb.set_trace()
             parsed_response = {}
             masks = data['masks']
@@ -218,6 +220,7 @@ class KYC(object):
         :return:
         """
         print(str(worker))
+        print( str(material) + "this is the material passed")
         data = self._get_payload_(worker, material)
         print('Expecting response')
         response = requests.post(self._get_url_(worker), json=data)
