@@ -6,7 +6,7 @@ All the weight files are found under the  account google cloud bucket
 
 In server aadhar-document-extractor
 $export PYTHONPATH=$PYTHONPATH:/home/ofsdms/Lochan/Mask_RCNN/
-$cd Lochan
+$cd ~/Lochan
 
 1. python3 ~/dms-mask-extraction/Lochan/deploy_v3_aadhar-document-extractor.py
 
