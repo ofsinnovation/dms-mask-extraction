@@ -16,7 +16,9 @@ $cd Lochan
 
 4. python3 ~/dms-mask-extraction/Lochan/Orientation_API.py
 
-5. mrcnn-deployment-final
+5. python3 ~/dms-mask-extraction/Lochan/deploy_v3_mrcnn-deployment-final.py
+
+6. python3 ~/dms-mask-extraction/Lochan/deploy_v3_pan-text-strip-extractor.py
 
 
 
