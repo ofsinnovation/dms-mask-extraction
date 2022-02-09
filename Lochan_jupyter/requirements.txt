@@ -98,7 +98,7 @@ Sphinx==1.7.6
 sphinxcontrib-websupport==1.1.0
 tensorboard==1.10.0
 tensorflow==1.9.0
-tensorflow-gpu==1.10.1
+tensorflow-gpu==2.5.3
 tensorflow-serving-api==1.10.1
 termcolor==1.1.0
 terminado==0.8.1
